@@ -1,0 +1,32 @@
+/* Full-height layout and flexbox to center the buttons */
+body,
+html {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  /* Horizontally center */
+  align-items: center;
+  /* Vertically center */
+  background-color: #f0f0f0;
+  /* Light background */
+}
+
+.button-container {
+  display: flex;
+  flex-direction: column;
+  /* Arrange buttons in a column */
+  gap: 15px;
+  /* Add some space between the buttons */
+}
+
+.shadow-container {
+  background-color: white;
+  /* Background for the container */
+  padding: 30px;
+  /* Padding inside the container */
+  border-radius: 10px;
+  /* Rounded corners for the container */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  /* Shadow around the container */
+}
